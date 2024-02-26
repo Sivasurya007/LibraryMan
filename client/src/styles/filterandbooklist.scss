@@ -1,0 +1,38 @@
+.filter-and-booklist-container {
+    position: relative;
+  }
+  
+  .logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  .filter-and-booklist-container {
+    background-color: #f5f5f5; 
+    padding: 20px; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+
+
+  
